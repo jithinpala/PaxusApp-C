@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6F4C34712BB5605D5266BF /* libPods-PaxusApp-CTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 042076CD71FB1BF5ECC24737 /* libPods-PaxusApp-CTests.a */; };
 		5D79C7D5203399C1005ADE4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C7D4203399C1005ADE4F /* AppDelegate.m */; };
-		5D79C7D8203399C1005ADE4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C7D7203399C1005ADE4F /* ViewController.m */; };
-		5D79C7DB203399C1005ADE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D79C7D9203399C1005ADE4F /* Main.storyboard */; };
 		5D79C7DD203399C1005ADE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D79C7DC203399C1005ADE4F /* Assets.xcassets */; };
 		5D79C7E0203399C1005ADE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D79C7DE203399C1005ADE4F /* LaunchScreen.storyboard */; };
 		5D79C7E3203399C1005ADE4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C7E2203399C1005ADE4F /* main.m */; };
 		5D79C7ED203399C1005ADE4F /* PaxusApp_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C7EC203399C1005ADE4F /* PaxusApp_CTests.m */; };
+		5D79C7FE20339A4E005ADE4F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C7FD20339A4E005ADE4F /* RootViewController.m */; };
+		5D79C8022033A339005ADE4F /* ActorsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C8012033A339005ADE4F /* ActorsListViewController.m */; };
+		5D79C8062033AB8A005ADE4F /* ActorDetailsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C8052033AB8A005ADE4F /* ActorDetailsTableCell.m */; };
+		5D79C80B2033C186005ADE4F /* NetworkingAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C80A2033C186005ADE4F /* NetworkingAPI.m */; };
+		5D79C80F2033C323005ADE4F /* WebserviceServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C80E2033C323005ADE4F /* WebserviceServerManager.m */; };
+		5D79C8132033C4BD005ADE4F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C8112033C4BC005ADE4F /* Reachability.m */; };
+		5D79C8162033C4E0005ADE4F /* PXReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C8152033C4E0005ADE4F /* PXReachability.m */; };
+		5D79C81C20344BF7005ADE4F /* ActorsListServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C81B20344BF7005ADE4F /* ActorsListServiceManager.m */; };
+		5D79C82120344DF9005ADE4F /* ActorsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C82020344DF9005ADE4F /* ActorsModel.m */; };
+		5D79C8282034DB94005ADE4F /* UIColor+ColorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C8272034DB94005ADE4F /* UIColor+ColorExtension.m */; };
+		5D79C82B2034E519005ADE4F /* PXAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C82A2034E519005ADE4F /* PXAnimation.m */; };
+		5D79C82F203527FE005ADE4F /* PXAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C82E203527FE005ADE4F /* PXAlertController.m */; };
+		5D79C83120352964005ADE4F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D79C83020352964005ADE4F /* Localizable.strings */; };
+		5D79C834203529B1005ADE4F /* NSString+StringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C833203529B1005ADE4F /* NSString+StringExtension.m */; };
+		DFA9EE50440C4BDF1A4E6066 /* libPods-PaxusApp-C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0F0E4CF9C6C7759C3D61B6 /* libPods-PaxusApp-C.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042076CD71FB1BF5ECC24737 /* libPods-PaxusApp-CTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaxusApp-CTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D79C7D0203399C1005ADE4F /* PaxusApp-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PaxusApp-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D79C7D3203399C1005ADE4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D79C7D4203399C1005ADE4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5D79C7D6203399C1005ADE4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5D79C7D7203399C1005ADE4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5D79C7DA203399C1005ADE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D79C7DC203399C1005ADE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D79C7DF203399C1005ADE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D79C7E1203399C1005ADE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +52,40 @@
 		5D79C7E8203399C1005ADE4F /* PaxusApp-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PaxusApp-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D79C7EC203399C1005ADE4F /* PaxusApp_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaxusApp_CTests.m; sourceTree = "<group>"; };
 		5D79C7EE203399C1005ADE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D79C7FC20339A4E005ADE4F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5D79C7FD20339A4E005ADE4F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5D79C8002033A339005ADE4F /* ActorsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActorsListViewController.h; sourceTree = "<group>"; };
+		5D79C8012033A339005ADE4F /* ActorsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActorsListViewController.m; sourceTree = "<group>"; };
+		5D79C8042033AB8A005ADE4F /* ActorDetailsTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActorDetailsTableCell.h; sourceTree = "<group>"; };
+		5D79C8052033AB8A005ADE4F /* ActorDetailsTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActorDetailsTableCell.m; sourceTree = "<group>"; };
+		5D79C8092033C186005ADE4F /* NetworkingAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkingAPI.h; sourceTree = "<group>"; };
+		5D79C80A2033C186005ADE4F /* NetworkingAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkingAPI.m; sourceTree = "<group>"; };
+		5D79C80D2033C323005ADE4F /* WebserviceServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebserviceServerManager.h; sourceTree = "<group>"; };
+		5D79C80E2033C323005ADE4F /* WebserviceServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebserviceServerManager.m; sourceTree = "<group>"; };
+		5D79C8112033C4BC005ADE4F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		5D79C8122033C4BD005ADE4F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5D79C8142033C4E0005ADE4F /* PXReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXReachability.h; sourceTree = "<group>"; };
+		5D79C8152033C4E0005ADE4F /* PXReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXReachability.m; sourceTree = "<group>"; };
+		5D79C8182033C8B2005ADE4F /* PXCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXCommon.h; sourceTree = "<group>"; };
+		5D79C81A20344BF7005ADE4F /* ActorsListServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActorsListServiceManager.h; sourceTree = "<group>"; };
+		5D79C81B20344BF7005ADE4F /* ActorsListServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActorsListServiceManager.m; sourceTree = "<group>"; };
+		5D79C81D20344CDF005ADE4F /* AllHeaderFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllHeaderFiles.h; sourceTree = "<group>"; };
+		5D79C81F20344DF9005ADE4F /* ActorsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActorsModel.h; sourceTree = "<group>"; };
+		5D79C82020344DF9005ADE4F /* ActorsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActorsModel.m; sourceTree = "<group>"; };
+		5D79C8262034DB94005ADE4F /* UIColor+ColorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorExtension.h"; sourceTree = "<group>"; };
+		5D79C8272034DB94005ADE4F /* UIColor+ColorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorExtension.m"; sourceTree = "<group>"; };
+		5D79C8292034E519005ADE4F /* PXAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXAnimation.h; sourceTree = "<group>"; };
+		5D79C82A2034E519005ADE4F /* PXAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXAnimation.m; sourceTree = "<group>"; };
+		5D79C82D203527FE005ADE4F /* PXAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PXAlertController.h; sourceTree = "<group>"; };
+		5D79C82E203527FE005ADE4F /* PXAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXAlertController.m; sourceTree = "<group>"; };
+		5D79C83020352964005ADE4F /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5D79C832203529B1005ADE4F /* NSString+StringExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+StringExtension.h"; sourceTree = "<group>"; };
+		5D79C833203529B1005ADE4F /* NSString+StringExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringExtension.m"; sourceTree = "<group>"; };
+		B27DA5E7AE4C684901E2DB74 /* Pods-PaxusApp-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusApp-C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusApp-C/Pods-PaxusApp-C.debug.xcconfig"; sourceTree = "<group>"; };
+		B556454578A25881BDB65B8C /* Pods-PaxusApp-CTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusApp-CTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusApp-CTests/Pods-PaxusApp-CTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8C43B063F780C0CA0465712 /* Pods-PaxusApp-CTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusApp-CTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusApp-CTests/Pods-PaxusApp-CTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC0F0E4CF9C6C7759C3D61B6 /* libPods-PaxusApp-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaxusApp-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05BD9330FE2F37FD31B09A5 /* Pods-PaxusApp-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusApp-C.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusApp-C/Pods-PaxusApp-C.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA9EE50440C4BDF1A4E6066 /* libPods-PaxusApp-C.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +101,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6F4C34712BB5605D5266BF /* libPods-PaxusApp-CTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11EEDC59630C722BE4731BD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F0E4CF9C6C7759C3D61B6 /* libPods-PaxusApp-C.a */,
+				042076CD71FB1BF5ECC24737 /* libPods-PaxusApp-CTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D79C7C7203399C1005ADE4F = {
 			isa = PBXGroup;
 			children = (
 				5D79C7D2203399C1005ADE4F /* PaxusApp-C */,
 				5D79C7EB203399C1005ADE4F /* PaxusApp-CTests */,
 				5D79C7D1203399C1005ADE4F /* Products */,
+				781AB739FFEF704A22202D56 /* Pods */,
+				11EEDC59630C722BE4731BD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,12 +140,10 @@
 		5D79C7D2203399C1005ADE4F /* PaxusApp-C */ = {
 			isa = PBXGroup;
 			children = (
+				5D79C8072033B38B005ADE4F /* Resources */,
+				5D79C7F7203399DB005ADE4F /* Classes */,
 				5D79C7D3203399C1005ADE4F /* AppDelegate.h */,
 				5D79C7D4203399C1005ADE4F /* AppDelegate.m */,
-				5D79C7D6203399C1005ADE4F /* ViewController.h */,
-				5D79C7D7203399C1005ADE4F /* ViewController.m */,
-				5D79C7D9203399C1005ADE4F /* Main.storyboard */,
-				5D79C7DC203399C1005ADE4F /* Assets.xcassets */,
 				5D79C7DE203399C1005ADE4F /* LaunchScreen.storyboard */,
 				5D79C7E1203399C1005ADE4F /* Info.plist */,
 				5D79C7E2203399C1005ADE4F /* main.m */,
@@ -103,6 +160,173 @@
 			path = "PaxusApp-CTests";
 			sourceTree = "<group>";
 		};
+		5D79C7F7203399DB005ADE4F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C7FA20339A10005ADE4F /* ViewControllers */,
+				5D79C7F9203399FF005ADE4F /* CoreComponents */,
+				5D79C7F8203399F0005ADE4F /* AppComponents */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5D79C7F8203399F0005ADE4F /* AppComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C82C203527DC005ADE4F /* Alert */,
+				5D79C8222034D9CC005ADE4F /* Extensions */,
+				5D79C81E20344DD6005ADE4F /* Model */,
+				5D79C81920344BD3005ADE4F /* Webservice module */,
+				5D79C8172033C896005ADE4F /* Common */,
+			);
+			path = AppComponents;
+			sourceTree = "<group>";
+		};
+		5D79C7F9203399FF005ADE4F /* CoreComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C8102033C472005ADE4F /* Reachability */,
+				5D79C80C2033C30A005ADE4F /* Server Interaction */,
+				5D79C8082033C161005ADE4F /* Networking */,
+			);
+			path = CoreComponents;
+			sourceTree = "<group>";
+		};
+		5D79C7FA20339A10005ADE4F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C7FF2033A31B005ADE4F /* Home */,
+				5D79C7FB20339A21005ADE4F /* Root */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5D79C7FB20339A21005ADE4F /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C7FC20339A4E005ADE4F /* RootViewController.h */,
+				5D79C7FD20339A4E005ADE4F /* RootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5D79C7FF2033A31B005ADE4F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C8032033AB53005ADE4F /* TableCell */,
+				5D79C8002033A339005ADE4F /* ActorsListViewController.h */,
+				5D79C8012033A339005ADE4F /* ActorsListViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5D79C8032033AB53005ADE4F /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C8042033AB8A005ADE4F /* ActorDetailsTableCell.h */,
+				5D79C8052033AB8A005ADE4F /* ActorDetailsTableCell.m */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		5D79C8072033B38B005ADE4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C7DC203399C1005ADE4F /* Assets.xcassets */,
+				5D79C83020352964005ADE4F /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D79C8082033C161005ADE4F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C8092033C186005ADE4F /* NetworkingAPI.h */,
+				5D79C80A2033C186005ADE4F /* NetworkingAPI.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5D79C80C2033C30A005ADE4F /* Server Interaction */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C80D2033C323005ADE4F /* WebserviceServerManager.h */,
+				5D79C80E2033C323005ADE4F /* WebserviceServerManager.m */,
+			);
+			path = "Server Interaction";
+			sourceTree = "<group>";
+		};
+		5D79C8102033C472005ADE4F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C8122033C4BD005ADE4F /* Reachability.h */,
+				5D79C8112033C4BC005ADE4F /* Reachability.m */,
+				5D79C8142033C4E0005ADE4F /* PXReachability.h */,
+				5D79C8152033C4E0005ADE4F /* PXReachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		5D79C8172033C896005ADE4F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C8182033C8B2005ADE4F /* PXCommon.h */,
+				5D79C81D20344CDF005ADE4F /* AllHeaderFiles.h */,
+				5D79C8292034E519005ADE4F /* PXAnimation.h */,
+				5D79C82A2034E519005ADE4F /* PXAnimation.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5D79C81920344BD3005ADE4F /* Webservice module */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C81A20344BF7005ADE4F /* ActorsListServiceManager.h */,
+				5D79C81B20344BF7005ADE4F /* ActorsListServiceManager.m */,
+			);
+			path = "Webservice module";
+			sourceTree = "<group>";
+		};
+		5D79C81E20344DD6005ADE4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C81F20344DF9005ADE4F /* ActorsModel.h */,
+				5D79C82020344DF9005ADE4F /* ActorsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D79C8222034D9CC005ADE4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C8262034DB94005ADE4F /* UIColor+ColorExtension.h */,
+				5D79C8272034DB94005ADE4F /* UIColor+ColorExtension.m */,
+				5D79C832203529B1005ADE4F /* NSString+StringExtension.h */,
+				5D79C833203529B1005ADE4F /* NSString+StringExtension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5D79C82C203527DC005ADE4F /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C82D203527FE005ADE4F /* PXAlertController.h */,
+				5D79C82E203527FE005ADE4F /* PXAlertController.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		781AB739FFEF704A22202D56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B27DA5E7AE4C684901E2DB74 /* Pods-PaxusApp-C.debug.xcconfig */,
+				D05BD9330FE2F37FD31B09A5 /* Pods-PaxusApp-C.release.xcconfig */,
+				B556454578A25881BDB65B8C /* Pods-PaxusApp-CTests.debug.xcconfig */,
+				C8C43B063F780C0CA0465712 /* Pods-PaxusApp-CTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D79C7F1203399C1005ADE4F /* Build configuration list for PBXNativeTarget "PaxusApp-C" */;
 			buildPhases = (
+				FA05DD268E3361EB688910F4 /* [CP] Check Pods Manifest.lock */,
 				5D79C7CC203399C1005ADE4F /* Sources */,
 				5D79C7CD203399C1005ADE4F /* Frameworks */,
 				5D79C7CE203399C1005ADE4F /* Resources */,
+				71732BB88CC729DB593FB9E2 /* [CP] Embed Pods Frameworks */,
+				EFE6C2D3B4913CC36C6FBCC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,9 +354,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D79C7F4203399C1005ADE4F /* Build configuration list for PBXNativeTarget "PaxusApp-CTests" */;
 			buildPhases = (
+				DC0D882219FD78A1FE11F60E /* [CP] Check Pods Manifest.lock */,
 				5D79C7E4203399C1005ADE4F /* Sources */,
 				5D79C7E5203399C1005ADE4F /* Frameworks */,
 				5D79C7E6203399C1005ADE4F /* Resources */,
+				C43DE2BB98FFF46A70821EA7 /* [CP] Embed Pods Frameworks */,
+				B285151D8B3989446F0E6C97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,7 +382,7 @@
 				TargetAttributes = {
 					5D79C7CF203399C1005ADE4F = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					5D79C7E7203399C1005ADE4F = {
 						CreatedOnToolsVersion = 9.2;
@@ -186,8 +416,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D79C7E0203399C1005ADE4F /* LaunchScreen.storyboard in Resources */,
+				5D79C83120352964005ADE4F /* Localizable.strings in Resources */,
 				5D79C7DD203399C1005ADE4F /* Assets.xcassets in Resources */,
-				5D79C7DB203399C1005ADE4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,14 +430,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71732BB88CC729DB593FB9E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaxusApp-C/Pods-PaxusApp-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B285151D8B3989446F0E6C97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaxusApp-CTests/Pods-PaxusApp-CTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43DE2BB98FFF46A70821EA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaxusApp-CTests/Pods-PaxusApp-CTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC0D882219FD78A1FE11F60E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaxusApp-CTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE6C2D3B4913CC36C6FBCC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaxusApp-C/Pods-PaxusApp-C-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA05DD268E3361EB688910F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaxusApp-C-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D79C7CC203399C1005ADE4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D79C7D8203399C1005ADE4F /* ViewController.m in Sources */,
+				5D79C8162033C4E0005ADE4F /* PXReachability.m in Sources */,
+				5D79C8062033AB8A005ADE4F /* ActorDetailsTableCell.m in Sources */,
 				5D79C7E3203399C1005ADE4F /* main.m in Sources */,
+				5D79C8132033C4BD005ADE4F /* Reachability.m in Sources */,
+				5D79C82F203527FE005ADE4F /* PXAlertController.m in Sources */,
+				5D79C82120344DF9005ADE4F /* ActorsModel.m in Sources */,
+				5D79C80B2033C186005ADE4F /* NetworkingAPI.m in Sources */,
+				5D79C82B2034E519005ADE4F /* PXAnimation.m in Sources */,
+				5D79C8022033A339005ADE4F /* ActorsListViewController.m in Sources */,
+				5D79C7FE20339A4E005ADE4F /* RootViewController.m in Sources */,
+				5D79C834203529B1005ADE4F /* NSString+StringExtension.m in Sources */,
 				5D79C7D5203399C1005ADE4F /* AppDelegate.m in Sources */,
+				5D79C80F2033C323005ADE4F /* WebserviceServerManager.m in Sources */,
+				5D79C81C20344BF7005ADE4F /* ActorsListServiceManager.m in Sources */,
+				5D79C8282034DB94005ADE4F /* UIColor+ColorExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,14 +571,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5D79C7D9203399C1005ADE4F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D79C7DA203399C1005ADE4F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5D79C7DE203399C1005ADE4F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -355,34 +688,41 @@
 		};
 		5D79C7F2203399C1005ADE4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27DA5E7AE4C684901E2DB74 /* Pods-PaxusApp-C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N6TQ4GM4YD;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "PaxusApp-C/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jithinpala.PaxusApp-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		5D79C7F3203399C1005ADE4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D05BD9330FE2F37FD31B09A5 /* Pods-PaxusApp-C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N6TQ4GM4YD;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "PaxusApp-C/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jithinpala.PaxusApp-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		5D79C7F5203399C1005ADE4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B556454578A25881BDB65B8C /* Pods-PaxusApp-CTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +738,7 @@
 		};
 		5D79C7F6203399C1005ADE4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C43B063F780C0CA0465712 /* Pods-PaxusApp-CTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
