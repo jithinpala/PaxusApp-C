@@ -7,6 +7,7 @@
 //
 
 #import "ActorsListServiceManager.h"
+#import "NetworkingAPI.h"
 
 @implementation ActorsListServiceManager
 
@@ -22,7 +23,7 @@ static ActorsListServiceManager *sharedMyManager = nil;
 #pragma mark - Method to fetch actors list for ActorsListViewController
 - (void)fetchAcotrsListfromServerWithSuccess:(void (^)(BOOL resultSuccess))successBlock failure:(void (^)(NSError *error))failureBlock{
     WebserviceServerManager *serverManager = [WebserviceServerManager sharedManager];
-    [serverManager sendRequestToServer:@"http://microblogging.wingnity.com/JSONParsingTutorial/jsonActors" parameters:nil apiRequestType:@"GET" success:^(NSTEasyJSON *fetchedJSON) {
+    [serverManager sendRequestToServer:[[NetworkingAPI sharedManager] apiBaseUrl] parameters:nil apiRequestType:@"GET" success:^(NSTEasyJSON *fetchedJSON) {
         NSArray *result = fetchedJSON[@"actors"].array;
         //NSDictionary *ok = fetchedJSON[@"actors"].dictionary;
         [[ActorsModel sharedManager] addActorDetailsToModel:result];

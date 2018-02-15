@@ -27,6 +27,8 @@
 		5D79C82F203527FE005ADE4F /* PXAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C82E203527FE005ADE4F /* PXAlertController.m */; };
 		5D79C83120352964005ADE4F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D79C83020352964005ADE4F /* Localizable.strings */; };
 		5D79C834203529B1005ADE4F /* NSString+StringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79C833203529B1005ADE4F /* NSString+StringExtension.m */; };
+		5DD93C2D20355870002E8E5C /* PXHelpUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD93C2C20355870002E8E5C /* PXHelpUnitTest.m */; };
+		5DD93C2F20355F0F002E8E5C /* PXWebServiceTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD93C2E20355F0F002E8E5C /* PXWebServiceTesting.m */; };
 		DFA9EE50440C4BDF1A4E6066 /* libPods-PaxusApp-C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0F0E4CF9C6C7759C3D61B6 /* libPods-PaxusApp-C.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +83,8 @@
 		5D79C83020352964005ADE4F /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		5D79C832203529B1005ADE4F /* NSString+StringExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+StringExtension.h"; sourceTree = "<group>"; };
 		5D79C833203529B1005ADE4F /* NSString+StringExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringExtension.m"; sourceTree = "<group>"; };
+		5DD93C2C20355870002E8E5C /* PXHelpUnitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXHelpUnitTest.m; sourceTree = "<group>"; };
+		5DD93C2E20355F0F002E8E5C /* PXWebServiceTesting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PXWebServiceTesting.m; sourceTree = "<group>"; };
 		B27DA5E7AE4C684901E2DB74 /* Pods-PaxusApp-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusApp-C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusApp-C/Pods-PaxusApp-C.debug.xcconfig"; sourceTree = "<group>"; };
 		B556454578A25881BDB65B8C /* Pods-PaxusApp-CTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusApp-CTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusApp-CTests/Pods-PaxusApp-CTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8C43B063F780C0CA0465712 /* Pods-PaxusApp-CTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusApp-CTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusApp-CTests/Pods-PaxusApp-CTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,6 +160,8 @@
 			children = (
 				5D79C7EC203399C1005ADE4F /* PaxusApp_CTests.m */,
 				5D79C7EE203399C1005ADE4F /* Info.plist */,
+				5DD93C2C20355870002E8E5C /* PXHelpUnitTest.m */,
+				5DD93C2E20355F0F002E8E5C /* PXWebServiceTesting.m */,
 			);
 			path = "PaxusApp-CTests";
 			sourceTree = "<group>";
@@ -556,6 +562,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD93C2F20355F0F002E8E5C /* PXWebServiceTesting.m in Sources */,
+				5DD93C2D20355870002E8E5C /* PXHelpUnitTest.m in Sources */,
 				5D79C7ED203399C1005ADE4F /* PaxusApp_CTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

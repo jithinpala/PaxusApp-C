@@ -11,5 +11,7 @@
 #import "NSString+StringExtension.h"
 
 @interface PXAlertController : NSObject
++ (instancetype)sharedManager;
+- (void)showSimpleAlert:(NSString *)message inController:(UIViewController *)viewController;
 + (void)showSimpleAlertWithMessage:(NSString *)message inController:(UIViewController *)viewController;
 @end

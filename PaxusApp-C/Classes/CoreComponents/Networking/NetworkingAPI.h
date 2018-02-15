@@ -12,4 +12,5 @@
 
 
 + (instancetype)sharedManager;
+- (NSString *)apiBaseUrl;
 @end
