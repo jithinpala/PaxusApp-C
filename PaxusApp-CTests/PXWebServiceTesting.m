@@ -13,6 +13,7 @@
 #import "ActorsModel.h"
 #import "ActorsListViewController.h"
 #import "PXAlertController.h"
+#import "NSString+StringExtension.h"
 
 @interface PXWebServiceTesting : XCTestCase
 @property (nonatomic, strong) ActorsListViewController *actorViewController;
@@ -77,7 +78,12 @@
         }
     }];
 }
-
+-(void)testAlertViewController {
+    UIViewController    *rootViewController = [[[UIApplication sharedApplication] keyWindow] rootViewController];
+    [PXAlertController showSimpleAlertWithMessage:@"Alert.webservice.failure" inController:rootViewController];
+    XCTAssertTrue([rootViewController.presentedViewController isKindOfClass:[UIAlertController class]],@"Expecting presented controller is UIAlertController");    
+    XCTAssertEqual(rootViewController.presentedViewController.title,[NSString localizedString:@"Product.Display.Name"]);
+}
 
 
 - (void)testExample {
